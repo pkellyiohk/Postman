@@ -1,0 +1,423 @@
+{
+	"info": {
+		"_postman_id": "7f26002b-c6f0-4c9d-bb4f-d17ab8125937",
+		"name": "IELE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Faucet IELE",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://iele-testnet.iohkdev.io:8099/faucet?address=0x428dc6096925b39996c7fbb0b7c5780b75dea504",
+					"protocol": "https",
+					"host": [
+						"iele-testnet",
+						"iohkdev",
+						"io"
+					],
+					"port": "8099",
+					"path": [
+						"faucet"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "0x428dc6096925b39996c7fbb0b7c5780b75dea504"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Faucet IELE",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://iele-testnet.iohkdev.io:8099/faucet?address=0x428dc6096925b39996c7fbb0b7c5780b75dea504",
+							"protocol": "https",
+							"host": [
+								"iele-testnet",
+								"iohkdev",
+								"io"
+							],
+							"port": "8099",
+							"path": [
+								"faucet"
+							],
+							"query": [
+								{
+									"key": "address",
+									"value": "0x428dc6096925b39996c7fbb0b7c5780b75dea504"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "66",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain; charset=UTF-8",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 12 Oct 2018 11:32:13 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "Server",
+							"value": "akka-http/10.0.6",
+							"name": "Server",
+							"description": "A name for the server"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "AWSALB=ls2unGTSEs0i0w6HiIjglbfGra+pYL6B6NGHfVTEm0uAZPvfE5XKVZdl28XRyDTrP4rF/KllZ83fZOd4esQE0w2sl0Z2+11iNYeXS+omAGX/jaa2SCm97QgHprTC; Expires=Fri, 19 Oct 2018 11:32:12 GMT; Path=/",
+							"name": "Set-Cookie",
+							"description": "an HTTP cookie"
+						}
+					],
+					"cookie": [
+						{
+							"expires": "Fri Oct 19 2018 12:32:12 GMT+0100 (GMT Summer Time)",
+							"httpOnly": false,
+							"domain": "iele-testnet.iohkdev.io",
+							"path": "/",
+							"secure": false,
+							"value": "ls2unGTSEs0i0w6HiIjglbfGra+pYL6B6NGHfVTEm0uAZPvfE5XKVZdl28XRyDTrP4rF/KllZ83fZOd4esQE0w2sl0Z2+11iNYeXS+omAGX/jaa2SCm97QgHprTC",
+							"key": "AWSALB"
+						}
+					],
+					"body": "0xe3cd8f32e64001e330b798eb2f81f4dd273a2daaf3102bf44a121b7e4183ccc8"
+				}
+			]
+		},
+		{
+			"name": "IELE Healthcheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://iele-testnet.iohkdev.io/healthcheck",
+					"protocol": "https",
+					"host": [
+						"iele-testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"healthcheck"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IELE Explorer ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://testnet.iohkdev.io/iele/explorer/",
+					"protocol": "https",
+					"host": [
+						"testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"iele",
+						"explorer",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IELE Explorer Fullscreen",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://iele-testnet.iohkdev.io/",
+					"protocol": "https",
+					"host": [
+						"iele-testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IELE Remix Compiler",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://testnet.iohkdev.io/iele/compiler/",
+					"protocol": "https",
+					"host": [
+						"testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"iele",
+						"compiler",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IELE Remix Compiler Fullscreen",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://iele-testnet.iohkdev.io/remix/#optimize=false",
+					"protocol": "https",
+					"host": [
+						"iele-testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"remix",
+						""
+					],
+					"hash": "optimize=false"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IELE Explorer Account Search",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "77524c94-9d20-4611-8c72-15f2412da175",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://iele-testnet.iohkdev.io/account/0xe888a0c16f50b1d90817b4ae9e0c97328f265efb",
+					"protocol": "https",
+					"host": [
+						"iele-testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"account",
+						"0xe888a0c16f50b1d90817b4ae9e0c97328f265efb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IELE Explorer Transaction Search",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "77524c94-9d20-4611-8c72-15f2412da175",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://iele-testnet.iohkdev.io/transaction/0xb2ca5b56ea8259af3bd1e47dd92defecfb0c3fa69b0c48779d64307cdce1300f",
+					"protocol": "https",
+					"host": [
+						"iele-testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"transaction",
+						"0xb2ca5b56ea8259af3bd1e47dd92defecfb0c3fa69b0c48779d64307cdce1300f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IELE Explorer Block Search",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "77524c94-9d20-4611-8c72-15f2412da175",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://iele-testnet.iohkdev.io/block/326348",
+					"protocol": "https",
+					"host": [
+						"iele-testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"block",
+						"326348"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IELE Testnet Home",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://testnet.iohkdev.io/iele/",
+					"protocol": "https",
+					"host": [
+						"testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"iele",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IELE Explorer Contract Search",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "77524c94-9d20-4611-8c72-15f2412da175",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://iele-testnet.iohkdev.io/account/0xc5f588f63a613dfcad2b9bbed567c14ed0f863be",
+					"protocol": "https",
+					"host": [
+						"iele-testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"account",
+						"0xc5f588f63a613dfcad2b9bbed567c14ed0f863be"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

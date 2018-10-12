@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "024353e1-4721-419c-851c-fed1139d687d",
+		"name": "KEVM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "KEVM Healthcheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://kevm-testnet.iohkdev.io/healthcheck/",
+					"protocol": "https",
+					"host": [
+						"kevm-testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"healthcheck",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KEVM Full Screen Explorer",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://kevm-testnet.iohkdev.io/",
+					"protocol": "https",
+					"host": [
+						"kevm-testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KEVM Faucet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://kevm-testnet.iohkdev.io:8099/faucet?address=0x428dc6096925b39996c7fbb0b7c5780b75dea504",
+					"protocol": "https",
+					"host": [
+						"kevm-testnet",
+						"iohkdev",
+						"io"
+					],
+					"port": "8099",
+					"path": [
+						"faucet"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "0x428dc6096925b39996c7fbb0b7c5780b75dea504"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KEVM Explorer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://testnet.iohkdev.io/kevm/explorer/",
+					"protocol": "https",
+					"host": [
+						"testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"kevm",
+						"explorer",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KEVM Explorer Transaction Search",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "77524c94-9d20-4611-8c72-15f2412da175",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://kevm-testnet.iohkdev.io/transaction/0x957e16ad7cd306c474832edff0ae09e47efc20c5ba7cced96d75924d066f3d45",
+					"protocol": "https",
+					"host": [
+						"kevm-testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"transaction",
+						"0x957e16ad7cd306c474832edff0ae09e47efc20c5ba7cced96d75924d066f3d45"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KEVM Explorer Block Search",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "77524c94-9d20-4611-8c72-15f2412da175",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://kevm-testnet.iohkdev.io/block/798605",
+					"protocol": "https",
+					"host": [
+						"kevm-testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"block",
+						"798605"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KEVM Explorer Account Search",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "77524c94-9d20-4611-8c72-15f2412da175",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://kevm-testnet.iohkdev.io/account/0x428dc6096925b39996c7fbb0b7c5780b75dea504",
+					"protocol": "https",
+					"host": [
+						"kevm-testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"account",
+						"0x428dc6096925b39996c7fbb0b7c5780b75dea504"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KEVM Testnet Home",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://testnet.iohkdev.io/kevm/",
+					"protocol": "https",
+					"host": [
+						"testnet",
+						"iohkdev",
+						"io"
+					],
+					"path": [
+						"kevm",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
